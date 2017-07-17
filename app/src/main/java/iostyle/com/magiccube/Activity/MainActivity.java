@@ -762,8 +762,8 @@ public class MainActivity extends AppCompatActivity {
                 r = Color.red(p);
                 g = Color.green(p);
                 b = Color.blue(p);
-                u7 = new Pixel(r, g, b);
-                u7Tv.setText(u7.getColor());
+                b7 = new Pixel(r, g, b);
+                b7Tv.setText(b7.getColor());
                 Log.d(TAG, "7  R:" + r + ",G:" + g + ",B:" + b);
 
                 p = bBitMap.getPixel(width / 2, height * 5 / 6);
