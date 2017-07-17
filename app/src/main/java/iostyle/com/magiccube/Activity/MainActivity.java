@@ -758,7 +758,7 @@ public class MainActivity extends AppCompatActivity {
                 b6Tv.setText(b6.getColor());
                 Log.d(TAG, "6  R:" + r + ",G:" + g + ",B:" + b);
 
-                p = uBitMap.getPixel(width / 6, height * 5 / 6);
+                p = bBitMap.getPixel(width / 6, height * 5 / 6);
                 r = Color.red(p);
                 g = Color.green(p);
                 b = Color.blue(p);
